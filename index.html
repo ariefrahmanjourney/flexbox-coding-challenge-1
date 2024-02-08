@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ar.css">
+    <title>Flexbox - Coding Challenge 1</title>
+</head>
+
+<body>
+
+    <!-- Start : navbar menu -->
+    <div class="navbar-menu">
+        <div class="container d-flex-1">
+            <div class="d-desktop flex-1">
+                <a href="#" class="a-1">Home</a>
+                <a href="#" class="a-1">Fashion</a>
+                <a href="#" class="a-1">Tech</a>
+                <a href="#" class="a-1">Lifestyle</a>
+                <a href="#" class="a-1">Travel</a>
+                <a href="#" class="a-1">Business</a>
+            </div>
+            <div class="d-desktop flex-1 text-right text-white" style="cursor:pointer;">&#x1F50D;</div>
+
+            <div class="d-mobile flex-1 text-white text-left" id="menus" style="cursor:pointer;">&#9776;
+            </div>
+            <div class="d-mobile flex-1 text-white text-center">NEWS</div>
+            <div class="d-mobile flex-1 text-white text-right" style="cursor:pointer;">&#x1F50D;</div>
+        </div>
+    </div>
+    <div class="sidebar-menu" id="sidebar-menu">
+        <div class="text-right text-white" id="times" style="cursor:pointer;font-size:13px;margin-bottom:20px;">&#9932;
+        </div>
+        <a href="#" class="a-2 d-block">Home</a>
+        <a href="#" class="a-2 d-block">Fashion</a>
+        <a href="#" class="a-2 d-block">Tech</a>
+        <a href="#" class="a-2 d-block">Lifestyle</a>
+        <a href="#" class="a-2 d-block">Travel</a>
+        <a href="#" class="a-2 d-block">Business</a>
+    </div>
+    <!-- End : navbar menu -->
+
+    <div class="container d-flex-2">
+        <div class="flex-3" style="margin-top:10px;">
+            <h2 style="margin:0px 0px 10px 0px;">Popular News</h2>
+            <div class="d-flex-sub-2">
+                <div class="flex-3"><img src="popular1.jpg" style="width:100%"></div>
+                <div class="flex-4" style="font-size:13px;margin-top:0px;padding-left:5px;"><a href="#" class="a-3">Art In The Museum</a></div>
+            </div>
+            <div class="d-flex-sub-2">
+                <div class="flex-3"><img src="popular2.jpg" style="width:100%"></div>
+                <div class="flex-4" style="font-size:13px;margin-top:0px;padding-left:5px;"><a href="#" class="a-3">Grand Live Concert In Germany</a></div>
+            </div>
+            <div class="d-flex-sub-2">
+                <div class="flex-3"><img src="popular3.jpg" style="width:100%"></div>
+                <div class="flex-4" style="font-size:13px;margin-top:0px;padding-left:5px;"><a href="#" class="a-3">Fighter Plane Crash During World War</a></div>
+            </div>
+            <div class="d-flex-sub-2">
+                <div class="flex-3"><img src="popular4.jpg" style="width:100%"></div>
+                <div class="flex-4" style="font-size:13px;margin-top:0px;padding-left:5px;"><a href="#" class="a-3">Nutritious Food Good For Healthy Life</a></div>
+            </div>
+            <div class="d-flex-sub-2">
+                <div class="flex-3"><img src="popular5.jpg" style="width:100%"></div>
+                <div class="flex-4" style="font-size:13px;margin-top:0px;padding-left:5px;"><a href="#" class="a-3">Tips To Make Crispy Food For Healthy Diet</a></div>
+            </div>
+        </div>
+        <div class="flex-4" style="margin-top:10px;padding:10px;">
+            <div style="margin-bottom:30px">
+                <img src="content1.jpg" style="width:100%;">
+                <a href="#" class="a-4 d-block">Trending Gadget That Simply Change Your Lifestyle</a>
+                <span class="text-gray" style="font-size:13px;">&#128197; July 17, 2023 &ensp; &#128512; Jack Ma</span>
+            </div>
+            <div style="margin-bottom:30px">
+                <img src="content2.jpg" style="width:100%;">
+                <a href="#" class="a-4 d-block">Tips To Do When Lost At The Time OF Travelling</a>
+                <span class="text-gray" style="font-size:13px;">&#128197; July 16, 2023 &ensp; &#128512; Jack Ma</span>
+            </div>
+            <div style="margin-bottom:30px">
+                <img src="content1.jpg" style="width:100%;">
+                <a href="#" class="a-4 d-block">Trending Gadget That Simply Change Your Lifestyle</a>
+                <span class="text-gray" style="font-size:13px;">&#128197; July 15, 2023 &ensp; &#128512; Jack Ma</span>
+            </div>
+        </div>
+        <div class="flex-3" style="margin-top:20px;">
+            <div style="margin-bottom:10px;">
+                <img src="popular2.jpg" style="width:100%">
+                <a href="#" class="a-4">Grand Live Concert In Germany</a>
+            </div>
+            <div class="d-flex-sub-2">
+                <div class="flex-3"><img src="popular2.jpg" style="width:100%"></div>
+                <a href="#" class="flex-4 a-3" style="font-size:13px;margin-top:0px;padding-left:5px;">Grand Live Concert In Germany</a>
+            </div>
+            <div class="d-flex-sub-2">
+                <div class="flex-3"><img src="popular3.jpg" style="width:100%"></div>
+                <a href="#" class="flex-4 a-3" style="font-size:13px;margin-top:0px;padding-left:5px;">Fighter Plane Crash During World War</a>
+            </div>
+            <div class="d-flex-sub-2">
+                <div class="flex-3"><img src="popular4.jpg" style="width:100%"></div>
+                <a href="#" class="flex-4 a-3" style="font-size:13px;margin-top:0px;padding-left:5px;">Nutritious Food Good For Healthy Life</a>
+            </div>
+            <div class="d-flex-sub-2">
+                <div class="flex-3"><img src="popular5.jpg" style="width:100%"></div>
+                <a href="#" class="flex-4 a-3" style="font-size:13px;margin-top:0px;padding-left:5px;">Tips To Make Crispy Food For Healthy Diet</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="ar.js"></script>
+</body>
+
+</html>
